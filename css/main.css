@@ -861,7 +861,7 @@ p {
 
 .modal-form-policy:focus + .modal-form-policy-text::before,
 .modal-form-policy:checked + .modal-form-policy-text::before {
-  border: 3px solid var(--accent-color);
+  border-color: var(--accent-color);
 }
 .policy-link {
   color: var(--accent-color);
